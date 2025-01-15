@@ -29,7 +29,7 @@ Welcome to our Todo List App! This simple yet powerful application helps you man
 1. Clone the repository:
 
     ```
-    git clone https://github.com/juZnu/TODO.git
+    git clone https://github.com/Dhanush-Abhiram/TODO.git
     ```
 
 2. Navigate to the project directory:
