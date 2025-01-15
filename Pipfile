@@ -1,0 +1,24 @@
+# Configuration file for managing Python packages with pip
+
+# Source URL for fetching packages
+url = "https://pypi.org/simple"
+
+# Specify whether to verify SSL connections (True or False)
+verify_ssl = true
+
+# Name of the package repository
+name = "pypi"
+
+# Packages required for the project
+[packages]
+django = "*"                 ; Django framework with any version
+djangorestframework = "*"    ; Django REST framework with any version
+psycopg2 = "*"               ; Psycopg2 PostgreSQL adapter with any version
+django-cors-headers = "*"    ; Django CORS headers with any version
+
+# Development packages (not used in this case)
+[dev-packages]
+
+# Python version required for the project
+[requires]
+python_version = "3.9"

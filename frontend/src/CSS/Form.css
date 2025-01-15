@@ -1,0 +1,80 @@
+/* Styles for the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Styles for form rows */
+.form-row,
+.textarea-row,
+.actions-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Styles for textarea row */
+.textarea-row textarea {
+    flex-grow: 1;
+    border: 2px solid #ccd6dd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Styles for actions row */
+.actions-row {
+    justify-content: flex-end;
+}
+
+/* Styles for input groups */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    border: 2px solid #ccd6dd;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* Styles for input focus */
+.input-group input:focus,
+.input-group select:focus,
+.textarea-row textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* General button styles */
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover,
+input[type="submit"]:hover {
+    background-color: transparent;
+}
+
+/* SVG icon styles */
+button svg {
+    vertical-align: middle;
+}
